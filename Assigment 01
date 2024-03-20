@@ -1,0 +1,52 @@
+# converting Celsius into Fahrenheit
+Celsius = float(input("Enter The temperature in Celsius : "))
+convert_Celsius= Celsius * 1.8 - 32
+print("Celsius to Fahrenheit : ",convert_Celsius)
+
+# converting Fahrenheit into Celsius
+Fahrenheit = float(input("Enter The temperature in Fahrenheit : "))
+convert_Fahrenheit = (Fahrenheit + 32) /1.8
+print("Fahrenheit to Celsius : ",convert_Fahrenheit)
+
+
+# Login page
+print("Login ")
+name = str(input("Your name : "))
+reg = str(input("Your Registration ID : "))
+pas = int(input("Your password : "))
+admin = reg == 63992 and pas == 123
+print(admin)
+
+
+# Discount 10% on an item 
+
+orignal_price = int(input("Enter the price of item : "))
+discount = orignal_price/10
+final_price = orignal_price-discount
+print("Orignal Price : ",orignal_price)
+print("After Discount Price : ",final_price)
+print("Discount on item : ", discount)
+
+
+#Book reading time as per page
+
+num_pages = int(input("Number of pages in book : "))
+reading_time = num_pages * 2
+print("Number pages", num_pages)
+print("Reading time : ",reading_time,"Minutes")
+
+# Find the Area of a Rectangle
+
+lenght = int(input("Enter lenght  : "))
+width = int(input("Enter width : "))
+area = lenght*width
+print("Area OF Rectangle is : ",area)
+
+
+#Flag
+
+name = str(input("Enter name : "))
+reg = str(input("Enter Registration ID : "))
+age = int(input("Enter age : "))
+Flag = reg ==63992
+print("The student is completed the assigment : ",Flag)
